@@ -1,5 +1,7 @@
 lock '3.8.1'
 
+set :rvm_map_bins, %w{gem rake ruby rails bundle}
+
 set :application, 'myapp'
 set :repo_url, 'git@github.com:strtwtsn/myapp.git'
 
