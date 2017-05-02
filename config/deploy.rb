@@ -73,10 +73,10 @@ set :db_local_clean, true
 set :db_remote_clean, true
 
 # if you want to exclude table from dump
-set :db_ignore_tables, []
+#set :db_ignore_tables, []
 
 # if you want to exclude table data (but not table schema) from dump
-set :db_ignore_data_tables, []
+#set :db_ignore_data_tables, []
 
 # configure location where the dump file should be created
 set :db_dump_dir, "./db"
