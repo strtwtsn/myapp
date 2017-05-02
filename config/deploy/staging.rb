@@ -1,3 +1,25 @@
+set :stage, :staging
+set :branch, "master"
+
+
+server "178.79.184.157", user: 'wcmc', roles: %w{app web db}
+
+set :application, "myapp"
+set :server_name, "178.79.184.157"
+set :sudo_user, "wcmc"
+
+
+
+
+
+
+
+
+
+
+
+
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
